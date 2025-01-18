@@ -34,4 +34,4 @@ Sensor Integration:
 # Achievements:
 - Successfully measured HR with an accuracy of 95% compared to standard medical devices.
 -  Developed a BP estimation algorithm achieving a mean absolute error (MAE) of ±5 mmHg for systolic and diastolic readings.
-- reated a low-cost, portable solution with potential applications in wearable health monitoring
+- Created a low-cost, portable solution with potential applications in wearable health monitoring
