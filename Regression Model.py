@@ -9,8 +9,8 @@ file_path = "https://raw.githubusercontent.com/mumer97/Biometric-Algorithm-for-H
 df = pd.read_csv(file_path)
 
 # Features and target variable
-X = df[["HR"]]  # PTT (independent variable)
-y = df["MEAN_RR"]  # BP (dependent variable)
+X = df[["HR"]]  
+y = df["MEAN_RR"]  
 
 # Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -20,7 +20,7 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 # Extract model coefficients
-bpCoeffHR = model.coef_[0]  # Slope (PTT coefficient)
+bpCoeffHR = model.coef_[0]  # Slope 
 bpIntercept = model.intercept_  # Intercept
 
 # Predict on the test set
